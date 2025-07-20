@@ -16,6 +16,7 @@ const {
 export const colors = {
   woot: {
     25: blue.blue2,
+    //30, blue, blue11
     50: blue.blue3,
     75: blue.blue4,
     100: blue.blue5,
@@ -27,6 +28,7 @@ export const colors = {
     700: blueDark.blue8,
     800: blueDark.blue6,
     900: blueDark.blue2,
+    
   },
   green: {
     50: greenDark.green12,
