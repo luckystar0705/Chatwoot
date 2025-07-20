@@ -184,7 +184,7 @@ ActiveRecord::Schema[7.1].define(version: 2025_06_27_195529) do
     t.index ["account_id"], name: "index_attachments_on_account_id"
     t.index ["message_id"], name: "index_attachments_on_message_id"
   end
-
+//this is the create table command
   create_table "audits", force: :cascade do |t|
     t.bigint "auditable_id"
     t.string "auditable_type"
