@@ -9,7 +9,7 @@
 # migrations use external dependencies or application code.
 #
 # It's strongly recommended that you check this file into your version control system.
-
+#this is really easy to use
 ActiveRecord::Schema[7.1].define(version: 2025_06_27_195529) do
   # These extensions should be enabled to support this database
   enable_extension "pg_stat_statements"
