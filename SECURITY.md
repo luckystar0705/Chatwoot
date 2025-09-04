@@ -1,56 +1,71 @@
-Chatwoot is looking forward to working with security researchers worldwide to keep Chatwoot and our users safe. If you have found an issue in our systems/applications, please reach out to us.
+# Chatwoot Security Policy
 
-## Reporting a Vulnerability
+Chatwoot is committed to working with security researchers worldwide to keep our platform and users safe.  
+If you discover a vulnerability in our systems or applications, please follow the steps below.
 
-We use Github to track the security issues that affect our project. If you believe you have found a vulnerability, please disclose it via this [form](https://github.com/chatwoot/chatwoot/security/advisories/new). This will enable us to review the vulnerability, fix it promptly, and reward you for your efforts.
+---
+We track security issues on **GitHub**.  
+If you believe you’ve found a vulnerability, please disclose it via this [form](https://github.com/chatwoot/chatwoot/security/advisories/new).  
 
-If you have any questions about the process, contact security@chatwoot.com. 
+This helps us:
+- Review the report
+- Fix the issue promptly
+- Reward your efforts
 
-Please try your best to describe a clear and realistic impact for your report, and please don't open any public issues on GitHub or social media; we're doing our best to respond through Github as quickly as possible.
+If you have questions about the process, email **security@chatwoot.com**.  
+> **Note:** Disclosures must be submitted via GitHub, not by email.  
+> Please avoid opening public GitHub issues or sharing on social media.
 
-> Note: Please use the email for questions related to the process. Disclosures should be done via [Github](https://github.com/chatwoot/chatwoot/security/advisories/new)
-## Supported versions
+---
 
-| Version | Supported        |
-| ------- | --------------   |
-| latest   | ️✅               |
-| <latest   | ❌               |
+## Supported Versions
 
+| Version  | Supported |
+|----------|-----------|
+| latest   | ✅         |
+| < latest | ❌         |
 
-## Vulnerabilities we care about 🫣
-> Note: Please do not perform testing against Chatwoot production services. Use a `self-hosted instance` to perform tests.
-- Remote command execution
+---
+
+## In-Scope Vulnerabilities
+
+Please test against a **self-hosted instance**, not production services.  
+We’re particularly interested in:
+
+- Remote Command Execution (RCE)
 - SQL Injection
-- Authentication bypass
+- Authentication Bypass
 - Privilege Escalation
-- Cross-site scripting (XSS)
-- Performing limited admin actions without authorization
-- CSRF
+- Cross-Site Scripting (XSS)
+- Unauthorized Admin Actions
+- Cross-Site Request Forgery (CSRF)
 
-You can learn more about our triaging process [here](https://www.chatwoot.com/docs/contributing-guide/security-reports).
+Learn more about our [triaging process](https://www.chatwoot.com/docs/contributing-guide/security-reports).
 
-## Non-Qualifying Vulnerabilities
+---
 
-We consider the following out of scope, though there may be exceptions.
+## Out-of-Scope Vulnerabilities
+
+The following are generally **not considered** valid reports (exceptions may apply):
 
 - Missing HTTP security headers
-- Incomplete/Missing SPF/DKIM
-- Reports from automated tools or scanners
-- Theoretical attacks without proof of exploitability
+- Incomplete or missing SPF/DKIM
+- Automated scanner reports
+- Theoretical attacks without proof
 - Social engineering
 - Reflected file download
 - Physical attacks
-- Weak SSL/TLS/SSH algorithms or protocols
-- Attacks involving physical access to a user's device or a device or network that's already seriously compromised (e.g., man-in-the-middle).
-- The user attacks themselves
-- Incomplete/Missing SPF/DKIM
-- Denial of Service attacks
+- Weak SSL/TLS/SSH configurations
+- Attacks requiring physical device/network compromise (e.g., MITM)
+- Self-inflicted user attacks
+- Denial of Service (DoS)
 - Brute force attacks
-- DNSSEC
+- DNSSEC-related issues
 
-If you are unsure about the scope, please create a [report](https://github.com/chatwoot/chatwoot/security/advisories/new).
+If unsure, please still [submit a report](https://github.com/chatwoot/chatwoot/security/advisories/new).
 
+---
 
-## Thanks
+## Acknowledgment
 
-Thank you for keeping Chatwoot and our users safe. 🙇
+Thank you for helping us keep Chatwoot and our users safe. 🙇
