@@ -55,4 +55,3 @@
 
 ## Ruby Best Practices
 
-- Use compact `module/class` definitions; avoid nested styles
