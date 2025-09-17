@@ -86,13 +86,7 @@ Please include as much of the following as possible to help us reproduce and fix
 ### Minimal report template
 
 ```
-Title: SQL injection in /api/v1/widgets
 
-Summary:
-A blind SQL injection in /api/v1/widgets may allow extraction of user emails.
-
-Affected versions:
-- chatwoot vX.Y.Z (self-hosted)
 
 Steps to reproduce:
 1. POST /api/v1/widgets with body: {"q":"1' OR (SELECT 1 FROM users WHERE id=1 AND substr(email,1,1)='a')-- -"}
