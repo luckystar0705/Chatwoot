@@ -88,7 +88,7 @@ Please include as much of the following as possible to help us reproduce and fix
 ```
 
 
-
+Steps to reproduce:
 1. POST /api/v1/widgets with body: {"q":"1' OR (SELECT 1 FROM users WHERE id=1 AND substr(email,1,1)='a')-- -"}
 2. Observe timing-based responses indicating injection.
 
