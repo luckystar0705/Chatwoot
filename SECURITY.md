@@ -114,7 +114,6 @@ Contact:
 ---
 
 ## Responsible testing guidelines
-  this is really simple
 * Test only on instances you control or have permission to test.
 * Avoid destructive or irreversible tests on shared systems.
 * Prefer safe, non-destructive PoCs where possible.
