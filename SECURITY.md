@@ -6,8 +6,6 @@ We welcome responsible disclosure from security researchers. This document expla
 
 ## Reporting a vulnerability
 
-Please **submit security reports via GitHub Security Advisories** so we can track, triage and fix issues effectively:
-
 * **Submit here:** `https://github.com/chatwoot/chatwoot/security/advisories/new`
 * For process questions only: `security@chatwoot.com`
 
@@ -40,9 +38,7 @@ We are primarily interested in issues that lead to compromise of confidentiality
 * SQL injection
 * Authentication bypass
 * Privilege escalation
-* Cross-Site Scripting (XSS)
-* Unauthorized admin actions
-* Cross-Site Request Forgery (CSRF)
+
 
 See our triage guide for more details: `https://www.chatwoot.com/docs/contributing-guide/security-reports`
 
@@ -55,12 +51,6 @@ The following are usually **not** valid reports unless accompanied by clear expl
 * Missing HTTP security headers (unless chaining to an exploit)
 * Missing/incomplete SPF/DKIM
 * Automated scanner output without manual validation
-* Theoretical attacks without proof-of-concept
-* Social engineering
-* Reflected file download issues
-* Physical-access attacks
-* Weak SSL/TLS or SSH configurations without demonstrated exploit
-* Attacks requiring an already-compromised environment (e.g., MITM when you control neither end)
 * Self-inflicted user attacks
 * Denial of Service (DoS) without demonstrated impact
 * Brute force attempts without demonstrated escalation
