@@ -5,14 +5,6 @@ We welcome responsible disclosure from security researchers. This document expla
 ---
 
 ## Reporting a vulnerability
-
-Please **submit security reports via GitHub Security Advisories** so we can track, triage and fix issues effectively:
-
-* **Submit here:** `https://github.com/chatwoot/chatwoot/security/advisories/new`
-* For process questions only: `security@chatwoot.com`
-
-> **Important:** Do **not** create public GitHub issues or post vulnerability details on social media. Use the GitHub advisories form.
-
 ---
 
 ## Supported versions
